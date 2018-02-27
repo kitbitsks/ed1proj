@@ -1,0 +1,46 @@
+JSON:-
+---------
+JSON file holds the details of user who holds account in the online flipkart type website(here 5 user details is taken into consideration)
+A seperate JSON file has been attached with all the details of the user.
+The details of the user include:-
+	1.deals for the user
+	2.smart offer for him/her
+	3.categories of interest
+	4.crazyoffers for him/her
+	5.supersavers offer for the logged in user
+	6.discounts for you
+	7.password details
+	8.several other labels as shown in original JSON file.
+
+
+
+JAVASCRIPT:-
+--------------	
+Logic Description:-
+-------------------
+
+1) Function to Read data from JSON file and display it in console.
+-------------------------------------------------------------------
+
+->parsing of original JSON file is done
+->loop is executed till the length of the array holding the objects
+->the array is of similar objects
+->objects description is shown in console window of browser
+
+
+2) Function to find a particular entry from JSON store using a name or id (whatever field you want)
+----------------------------------------------------------------------------------------------------
+->search method is created which searches for the entry in the entire array
+->on successfull finding, the object is returned.
+->the object is then converted to string format using 'stringify' so that it could be displayed using 'alert'
+->parsing of original JSON file is done
+->using prompt the name to be searched is taken,and passed in the search function
+->if the object is not found by name the appropriate message is shown
+
+
+3) Function to find a particular entry by its position/index (index in the array)
+-----------------------------------------------------------------------------------
+->parsing of original JSON file is done.
+->position is taken through prompt and store in a variable 'index'.
+->the object is then converted to string format using 'stringify' so that it could be displayed using 'alert'.
+->the appropriate object is displayed through alert by the value index-1.
